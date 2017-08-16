@@ -73,10 +73,85 @@ text-decoration: none;
 }
 .reserve-btn a{
 	color:#fff;
-	padding:30px 50px;
+	padding:11px 14px;
 	background-color: #f3343a;
 	border-radius:8px;
 }
+
+.gallery-slider {
+	display: inline;
+	width: 339px;
+	height: auto;
+}
+.gallery-slider img {
+	width: 339px;
+	height: auto;
+	margin:0 -3px;
+}
+.features-box{
+	width:1137px;
+	margin:0 auto;
+	padding:20px;
+}
+.features{
+	display:inline-table;
+	width:326px;
+	text-align:center;
+	padding:25px;
+}
+.features img{
+	width:275px;
+}
+.olive-testimony{
+	background-image:url("/images/images/rainforest2-large.jpg");
+	text-align:center;
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+.testimony-box {
+	width: 630px;
+	padding: 64px;
+	margin: 0 auto;
+}
+.testimony{
+	display:inline-block;
+	width:236px;
+	margin-right:153px;
+	margin-top:20px;
+	margin-bottom:70px;
+}
+.testimony:last-child,
+.comment p,
+.tourist p {
+	margin: 0;
+}
+ .comment{
+	padding: 15px;
+	border: 5px solid #5f8854;
+	border-radius: 15px;
+	background-color: #fff;
+ }
+ .commenter {
+	padding-top: 10px;
+}
+.commenter img{
+	width:66px;
+	display:inline-block;
+}
+.tourist {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	width: 152px;
+}
+.tourist p:first-child,
+.tourist p:last-child {
+	font-weight: bold;
+}
+.tourist p:last-child {
+	color: #295f14;
+}
+
 /*--------------------------------------------------------------
 # Lander Default End
 --------------------------------------------------------------*/

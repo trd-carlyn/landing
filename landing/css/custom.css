@@ -117,8 +117,6 @@ text-decoration: none;
 	display:inline-block;
 	width:236px;
 	margin-right:153px;
-	margin-top:20px;
-	margin-bottom:70px;
 }
 .testimony:last-child,
 .comment p,
@@ -151,7 +149,22 @@ text-decoration: none;
 .tourist p:last-child {
 	color: #295f14;
 }
-
+footer{
+	background-image:url("/images/images/foot_jungle.png");
+	box-shadow:2px 2px 2px #000;
+}
+.olive-copyright {
+	width: 500px;
+	margin: 0 auto;
+}
+.olive-copyright p{
+	text-align:center;
+	padding:15px;
+	color:#fff;
+	text-shadow:2px 2px 2px #000;
+	font-size:15px;
+	margin:0;
+}
 /*--------------------------------------------------------------
 # Lander Default End
 --------------------------------------------------------------*/
